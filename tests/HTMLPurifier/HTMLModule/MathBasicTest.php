@@ -16,7 +16,6 @@ class HTMLPurifier_HTMLModule_MathBasicTest extends HTMLPurifier_HTMLModuleHarne
     public function setup() {
 
         parent::setup();
-        $this->config->set('HTML.Math', true);
 
         // We load each snippet and its purified version each into a
         // separate XML document. This normalizes some self-closing
