@@ -1,0 +1,1 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML"><apply><csymbol cd="logic1">equivalent</csymbol><ci>a</ci><apply><csymbol cd="logic1">not</csymbol><apply><csymbol cd="logic1">not</csymbol><ci>a</ci></apply></apply></apply></math>
