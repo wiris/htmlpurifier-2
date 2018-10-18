@@ -9,5 +9,6 @@ php:
 before_script:
     - git clone --depth=50 https://github.com/ezyang/simpletest.git
     - cp test-settings.travis.php test-settings.php
+    - phpenv config-add travis.php.ini
 script:
     - php tests/index.php
